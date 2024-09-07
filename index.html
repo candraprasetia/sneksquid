@@ -1,0 +1,329 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive watches website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='nav__logo-ic'></i> snek squid
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Roadmap</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Membership</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">New</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+            </nav>
+            
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+
+            <h2 class="cart__title-center">My Cart</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/featured1.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Jazzmaster</h3>
+                        <span class="cart__price">$1050</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/featured3.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Rose Gold</h3>
+                        <span class="cart__price">$850</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="assets/img/new1.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Longines Rose</h3>
+                        <span class="cart__price">$980</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 items</span>
+                <span class="cart__prices-total">$2880</span>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="assets/img/home.png" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="https://x.com/SnekSquid" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="" target="_blank" class="home__social-link">
+                          
+                        </a>
+                        <a href="https://t.me/SnekSquidCardano" target="_blank" class="home__social-link">
+                            Telegram
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">SNEK SQUID <br> WE'VE GO YOUR BACK!</h1>
+                        <p class="home__description">
+                            The Sun Feg mission is to creat an army of honest, trustworthy and dependable foot soldiers supporting, protecting and guiding the NFT community!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== THE ROADMAP ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    THE ROADMAP
+                </h2>
+                <div class="roadmap">
+                    <h1>1. MILESTONE 1</h1><br>
+                        <P>Honour OUR FRIENDZ who have played a major role in our origin story and give back to the NFT community with Free Mints, Whitelist and 7 x Special Cronos snek squid</P><br><br>
+                    <h1>2. MILESTONE 2 & 3</h1><br>
+                        <p>Launch and sell out the 1st Edition Snek Squid Collection-2222 Snek Squid NFTs on the Cronos Blockchain. Release Custom 1/1 Snek Squid (held back from public sale) to be airdropped to 25 lucky Trooprz Army holders.</p><br><br>
+                    <h1>3. MILESTONE 4</h1><br>
+                        <p>Launch and sell out the 2nd Edition Snek Squid Collection-3333 Snek Squid NFTs on the Cronos Blockchain.</p><br><br>
+                    <h1>4. MILESTONE 5</h1><br>
+                        <p>Official launch of 'Moonshotz Bar & Grill - The exclusive 'holders only' online community. Initiate Snek Squid raffle - 4% secondary royalties shared by weekly winners!</p><br><br>
+                    <h1>5. MILESTONE 6</h1><br>
+                        <p>Super Trooprz Airdrop! Stake your Trooprz to earn $TRPZ-trade $TRPZ for traits to create the ultimate Super Troopr. Buy, sell and swap traits and Super Snek Squid on secondary market.</p><br><br>
+                    <h1>6. MILESTONE 7 & 8</h1><br>
+                        <p>Exclusive Trooprz merch and online discounts available to purchase on the Trooprz Marketplace using STRPZ, CRO or FIAT. Give back to 3 charities close to our hearts with an initial donation of $5000.00 each. $TRPZ tokens traded for once in lifetime IRL experiences available via the Trooprz Marketplace.</p>
+                </div>
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h1 class="story__title">
+                            THE SNEK SQUID MISSION
+                        </h1>
+                        <p>Every member of the snek squid community will endeavour to encapsulate and embody these pillars.
+Our core mission is to protect and serve the web3 space by lifting projects up, supporting people and sharing tips and advice in the space.</p>
+                        <p class="story__description">
+                            <BR>
+                        </p>
+    
+                    </div>
+
+                    <div class="story__images">
+                        <img src="assets/img/img1.png" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== MEMBERSHIP ====================-->
+            <section class="products_sec container" id="products">
+                <h2 class="section__title">
+                    MEMBERSHIP BENEFITS
+                </h2>
+                <div>
+                    <ol>
+                      <li>100 CRO per month per mint for 2 months</li>
+                      <li>4% of secondary market royalties will be shared each week by 5 lucky tickets holders</li>
+                      <li>Access to Moonshotz Bar & Grill' - The exclusive 'holders only' alpha community</li>
+                      <li>Next generation 'snek squid' airdrop</li>
+                      <li>Next generation 'snek squid' airdrop</li>
+                      <li>Trade $TRPZ for once in lifetime IRL experiences and Trooprz merch</li>
+                    </ol>
+                </div>
+
+                
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left' ></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    I'm passionate about helping people, educating people (but not in the traditional sense... because that system is fundamentally broken) and working with people for the greater good... I believe communication, collaboration and teamwork is the key to any success.
+                                </p>
+                                <div class="testimonial__perfil">
+                                    <img src="assets/img/img2.png" alt="" class="testimonial__perfil-img">
+        
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">CRYPTOTROOPER</span>
+                                        <span class="testimonial__perfil-detail">Project Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="assets/img/img1.png" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                   
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <ul class="footer__social">
+                        <a href="https://t.me/SnekSquidCardano" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-telegram'></i>
+                        </a>
+
+                        <a href="https://x.com/SnekSquid" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; Snek Squid. All rigths reserved</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
